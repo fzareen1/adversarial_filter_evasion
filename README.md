@@ -1,6 +1,7 @@
 # adversarial_filter
 
 The script expects the following folder structure:
+```plaintext
 adversarial_filter_master/
 ├── attack_lib.py
 ├── evasion_attack_V1.py
@@ -20,6 +21,8 @@ adversarial_filter_master/
     ├── EEGLayers.py
     ├── pytorch_utils.py
     └── tempCodeRunnerFile.py
+```
+
 
 # Root Files:
 
