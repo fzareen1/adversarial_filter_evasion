@@ -1,0 +1,88 @@
+=========================================================
+gpu_id:1
+model:EEGNet
+dataset:ERN
+batch_size:128
+epochs:50
+lr:0.0005
+setup:within
+log:V1
+device:cpu
+
+
+subject id: 0
+train: (99, 1, 56, 2721), test: (34, 1, 56, 2721)
+test bca on normal filter: 0.6363636363636364
+step: 0, alpha: 100.0
+Epoch 10/50: train acc/bca: 0.64/0.63, adv train acc/bca: 0.65/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.61/0.65, adv train acc/bca: 0.71/0.73 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.68/0.68, adv train acc/bca: 0.66/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.63/0.67, adv train acc/bca: 0.67/0.68 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.70/0.67, adv train acc/bca: 0.65/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 1, alpha: 50.0
+Epoch 10/50: train acc/bca: 0.66/0.65, adv train acc/bca: 0.59/0.62 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.64/0.65, adv train acc/bca: 0.69/0.66 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.57/0.59, adv train acc/bca: 0.54/0.58 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.68/0.65, adv train acc/bca: 0.60/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.65/0.65, adv train acc/bca: 0.61/0.62 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 2, alpha: 25.0
+Epoch 10/50: train acc/bca: 0.65/0.64, adv train acc/bca: 0.57/0.61 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.56/0.66, adv train acc/bca: 0.66/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.58/0.58, adv train acc/bca: 0.68/0.66 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.64/0.62, adv train acc/bca: 0.61/0.67 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.58/0.60, adv train acc/bca: 0.62/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 3, alpha: 12.5
+Epoch 10/50: train acc/bca: 0.62/0.62, adv train acc/bca: 0.69/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.55/0.64, adv train acc/bca: 0.63/0.58 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.61/0.62, adv train acc/bca: 0.69/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.69/0.68, adv train acc/bca: 0.63/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.66/0.65, adv train acc/bca: 0.64/0.62 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 4, alpha: 6.25
+Epoch 10/50: train acc/bca: 0.69/0.62, adv train acc/bca: 0.58/0.59 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.65/0.60, adv train acc/bca: 0.73/0.68 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.62/0.63, adv train acc/bca: 0.60/0.59 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.70/0.64, adv train acc/bca: 0.59/0.60 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.60/0.62, adv train acc/bca: 0.58/0.60 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 5, alpha: 3.125
+Epoch 10/50: train acc/bca: 0.63/0.62, adv train acc/bca: 0.67/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.62/0.67, adv train acc/bca: 0.60/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.63/0.65, adv train acc/bca: 0.64/0.59 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.69/0.65, adv train acc/bca: 0.65/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.58/0.62, adv train acc/bca: 0.66/0.57 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7352941176470589/0.5
+step: 6, alpha: 4.6875
+Epoch 10/50: train acc/bca: 0.62/0.66, adv train acc/bca: 0.69/0.66 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.63/0.65, adv train acc/bca: 0.64/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.67/0.61, adv train acc/bca: 0.58/0.57 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.62/0.59, adv train acc/bca: 0.61/0.60 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.67/0.67, adv train acc/bca: 0.65/0.65 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 7, alpha: 3.90625
+Epoch 10/50: train acc/bca: 0.60/0.59, adv train acc/bca: 0.58/0.58 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.58/0.60, adv train acc/bca: 0.65/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.66/0.69, adv train acc/bca: 0.72/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.65/0.64, adv train acc/bca: 0.64/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.62/0.63, adv train acc/bca: 0.65/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7647058823529411/0.5555555555555556
+step: 8, alpha: 3.515625
+Epoch 10/50: train acc/bca: 0.66/0.65, adv train acc/bca: 0.65/0.61 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.72/0.68, adv train acc/bca: 0.62/0.64 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.62/0.64, adv train acc/bca: 0.66/0.66 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.56/0.60, adv train acc/bca: 0.58/0.58 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.64/0.67, adv train acc/bca: 0.65/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7352941176470589/0.5
+step: 9, alpha: 3.7109375
+Epoch 10/50: train acc/bca: 0.63/0.61, adv train acc/bca: 0.68/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 20/50: train acc/bca: 0.66/0.68, adv train acc/bca: 0.61/0.62 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 30/50: train acc/bca: 0.63/0.64, adv train acc/bca: 0.59/0.60 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 40/50: train acc/bca: 0.68/0.64, adv train acc/bca: 0.65/0.63 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Epoch 50/50: train acc/bca: 0.70/0.69, adv train acc/bca: 0.55/0.60 | test acc/bca: 0.76/0.64 adv test acc/bca: 0.76/0.64
+Val acc/bca: 0.7352941176470589/0.5
+test bca on adv filter: 0.6363636363636364, best alpha: 3.80859375
+subject id: 1
+train: (99, 1, 56, 2776), test: (34, 1, 56, 2776)
